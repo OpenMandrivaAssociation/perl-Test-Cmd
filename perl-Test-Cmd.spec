@@ -15,6 +15,7 @@ Source:         http://www.cpan.org/modules/by-module/Test/%{module}-%{version}.
 BuildRequires:  perl-devel
 %endif
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description 
 The Test::Cmd module provides a low-level framework for portable automated
